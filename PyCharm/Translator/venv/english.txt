@@ -1,0 +1,5 @@
+Hello my name is Ashraf
+I am 27 Years old
+I lived in Canada and the UK
+I know Python, JavaScript, Java, PHP, C#, HTML, CSS and a little Ruby and C
+I Programmed for Web, Mobile, Game and Circuits

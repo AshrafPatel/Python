@@ -18,7 +18,7 @@ def getInput(randomLow, randomHigh):
 
 def promptGuess():
 	'''Check answer against random number'''
-	guess = input(f"Please enter a number between {randomLow} and {randomHigh}")
+	guess = input(f"Please enter a number between {randomLow} and {randomHigh}\n")
 	try:
 		guess = int(guess)
 		return guess

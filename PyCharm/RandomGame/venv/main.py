@@ -1,8 +1,11 @@
 from sys import argv
 from random import randint
 
-randomLow = argv[1]
-randomHigh = argv[2]
+randomLow = 1
+randomHigh = 10
+if (len(argv) > 1):
+	randomLow = argv[1]
+	randomHigh = argv[2]
 guessesMade = 0
 
 def getInput(randomLow, randomHigh):

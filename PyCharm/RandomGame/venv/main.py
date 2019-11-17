@@ -49,6 +49,6 @@ def runGame(randomNum):
 	else:
 		print(f"Please enter a valid min and max number to start the program")
 
-
-randomNum = getInput(randomLow, randomHigh)
-runGame(randomNum)
+if __name__ == "__main___":
+	randomNum = getInput(randomLow, randomHigh)
+	runGame(randomNum)
